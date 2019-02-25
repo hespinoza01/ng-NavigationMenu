@@ -14,11 +14,17 @@ import { ModuleWithProviders } from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
 
 // import components
-import {AppComponent} from './app.component';
 import {E404Component} from './E404Component/e404.component';
 
+// pages
+import {HomePage} from './pages/home/home.page';
+import {AboutPage} from './pages/about/about.page';
+import {ContactPage} from './pages/contact/contact.page';
+
 const appRouting: Routes = [
-  {path: '', component: AppComponent},
+  {path: '', component: HomePage},
+  {path: 'about', component: AboutPage},
+  {path: 'contact', component: ContactPage},
   {path: '**', component: E404Component}
 ];
 
