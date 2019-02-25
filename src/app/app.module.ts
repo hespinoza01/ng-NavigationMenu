@@ -6,6 +6,7 @@ import { Routing, AppRoutingWithProvider } from './app.routing.module';
 // components
 import { AppComponent } from './app.component';
 import {E404Component} from './E404Component/e404.component';
+import {NavigationComponent} from './navigation/navigation.component';
 
 // pages
 import {HomePage} from './pages/home/home.page';
@@ -16,6 +17,7 @@ import {ContactPage} from './pages/contact/contact.page';
   declarations: [
     AppComponent,
     E404Component,
+    NavigationComponent,
     HomePage,
     AboutPage,
     ContactPage

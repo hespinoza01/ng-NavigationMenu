@@ -1,0 +1,8 @@
+nav{
+  padding: 10px;
+}
+
+nav a{
+  margin-right: 1rem;
+}
+nav a:last-child{ margin-right: 0; }
