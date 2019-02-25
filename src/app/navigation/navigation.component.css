@@ -1,8 +1,6 @@
-nav{
-  padding: 10px;
-}
+nav{ padding: 10px; }
 
-nav a{
-  margin-right: 1rem;
-}
+nav a{ margin-right: 1rem; }
 nav a:last-child{ margin-right: 0; }
+
+.active{ color: tomato; }
